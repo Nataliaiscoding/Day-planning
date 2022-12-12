@@ -19,6 +19,12 @@ body {
   margin-top: 20px;
   flex-wrap: wrap;
 }
+.weekly {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
 .AppWeekend {
   display: flex;
   justify-content: space-around;

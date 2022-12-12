@@ -10,6 +10,9 @@ import { Wednesday } from './Wednesday';
 function App() {
   return (
     <div>
+      <div className='weekly'>
+        <h1>WEEKLY PLANNING</h1>
+      </div>
     <div className="App">
       <Monday/>
       <Tuesday/>
