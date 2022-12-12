@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { Friday } from './Friday';
+import { Monday } from './Monday';
+import { Saturday } from './Saturday';
+import { Sunday } from './Sunday';
+import { Thursday } from './Thursday';
+import { Tuesday } from './Tuesday';
+import { Wednesday } from './Wednesday';
 
 function App() {
   return (
+    <div>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Monday/>
+      <Tuesday/>
+      <Wednesday/>
+      <Thursday/>
+      <Friday/>
+    </div>
+    <div className='AppWeekend'>
+      <Saturday/>
+      <Sunday/>
+    </div>
+
     </div>
   );
 }
