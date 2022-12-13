@@ -9,9 +9,9 @@ body {
   background-color: #e8c4c469;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  min-height: 60vh;
   width: 300px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 .App {
   display: flex;
